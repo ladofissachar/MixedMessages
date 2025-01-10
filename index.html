@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Inspirational Quote Generator</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Inspirational Quote Generator</h1>
+    </header>
+
+    <main>
+        <section>
+            <h1>Select the word that describe how you feel.</h1>
+        </section>
+
+        <div class="btnGroup">
+            <div class="btnDiv1">
+                <button class="btn" onclick="feeling('sad')">Sad</button>
+            </div>
+            <div class="btnDiv2">
+                <button class="btn" onclick="feeling('afraid')">Afraid</button>
+            </div>
+            <div class="btnDiv3">
+                <button class="btn" onclick="feeling('angery')">Angery</button>
+            </div>
+        </div>
+
+        <hr>
+
+        <section>
+            <h2 class="quote"></h2>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - <span>Jacob Jarecki</span></p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
